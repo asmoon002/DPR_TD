@@ -1,0 +1,19 @@
+## data
+train_file: 파일경로/최종학습파일.json
+dev_file: 파일경로/WikiQA_dev_processed.json
+
+
+## training
+base_model: bert-base-uncased
+per_device_train_batch_size: 16
+per_device_eval_batch_size: 8
+adam_eps: 1.0e-8
+weight_decay: 0.0
+max_grad_norm: 2.0
+lr: 2.0e-5
+warmup_steps: 1237
+max_train_epochs: 2
+seed: 19971119
+gradient_accumulation_steps: 1
+val_check_interval: 1.0
+num_other_negative_ctx: 30
