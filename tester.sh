@@ -1,0 +1,1 @@
+python test_dpr_wiki.py --embedding_dir /userHome/userhome3/kyumin/nanoDPR/pro_del_wiki_2epoch_4/nanoDPR --pretrained_model_path /userHome/userhome3/kyumin/nanoDPR/wandb/pro_del_wiki_2epoch_4/files/step-428/query_encoder
